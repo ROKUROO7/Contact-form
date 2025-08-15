@@ -97,7 +97,7 @@ contactForm.addEventListener("submit",(e) => {
         formInputB[key].setAttribute("aria-invalid","true")
       }
       else {
-        formInputB[key].setAttribute("aria-invalid","true")
+        formInputB[key].setAttribute("aria-invalid","false")
         requiredGroupB[key].innerText = ""
       }
     }
