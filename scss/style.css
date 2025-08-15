@@ -21,7 +21,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-shadow: 0;
+  box-shadow: none;
   box-sizing: border-box;
 }
 
@@ -238,6 +238,7 @@
   text-align: center;
   letter-spacing: 0.05rem;
   border-radius: 0.5rem;
+  border: none;
 }
 .form_button--green-medium {
   color: hsl(0, 0%, 100%);

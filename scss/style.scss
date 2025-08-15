@@ -38,7 +38,7 @@ $high: 700;
 *,*::before,*::after {
   margin: 0;
   padding: 0;
-  box-shadow: 0;
+  box-shadow: none;
   box-sizing: border-box;
 }
 
@@ -277,6 +277,7 @@ $high: 700;
     text-align: center;
     letter-spacing: 0.05rem;
     border-radius: 0.5rem;
+    border: none;
     
     &--green-medium {
       color: $White;
