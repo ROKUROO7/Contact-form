@@ -314,7 +314,7 @@ $high: 700;
     animation-name: down, fade;
     animation-duration: 1s;
     animation-delay: 0s, 5s;
-    animation-fill-mode: ease-in-out;
+    animation-fill-mode: forwards;
   }
   
   &--inactive {
